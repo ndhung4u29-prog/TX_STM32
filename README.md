@@ -1,4 +1,4 @@
-# TX2 – Tay cầm điều khiển DIY (STM32F411) + ExpressLRS (RP2 V1.2)
+# TX – Tay cầm điều khiển DIY (STM32F411) + ExpressLRS (RP2 V1.2)
 
 Dự án **TX2** là tay cầm điều khiển DIY sử dụng **STM32F411** để điều khiển UAV/quad thông qua liên kết vô tuyến **ExpressLRS (ELRS)**.  
 Tay cầm đọc tín hiệu từ joystick/switch, chuẩn hoá thành các kênh điều khiển và **gửi khung CRSF qua UART** vào **RadioMaster RP2 V1.2** (đã cấu hình để hoạt động như TX module công suất thấp). Trên drone sử dụng **RP2 V1.2 làm Receiver** và **Flight Controller (FC) Betaflight** để nhận kênh điều khiển.
